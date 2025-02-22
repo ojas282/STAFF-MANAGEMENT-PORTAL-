@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: 'Inter', sans-serif;
+}
+
+@layer base {
+  :root {
+    --color-primary: 147 51 234;
+    --color-secondary: 236 72 153;
+  }
+}
+
+.bg-gradient {
+  @apply bg-gradient-to-r from-purple-600 to-pink-500;
+}
+
+.text-gradient {
+  @apply bg-gradient-to-r from-purple-600 to-pink-500 bg-clip-text text-transparent;
+}
