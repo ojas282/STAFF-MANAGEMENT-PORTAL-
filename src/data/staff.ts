@@ -61,12 +61,12 @@ export const staffMembers: StaffMember[] = [
   {
     id: '4',
     name: 'Sakshi Maddhesiya',
-    designation: 'Front Desk Manager',
+    designation: 'Front Desk Representative',
     department: 'frontDesk',
     photo: '/sakshi.png',
     idcard: '/sakshiid.jpg',
     phone: '+91 8887 714007',
-    joiningDate: '2021-01-15',
+    joiningDate: '22 January 2024',
     bloodGroup: 'O+',
     dob: '24 November 2002',
     shiftTimings: '8:00 AM - 4:00 PM (15th - 30th), 1:00 PM - 9:00 PM (1st - 15th)',
@@ -85,8 +85,8 @@ export const staffMembers: StaffMember[] = [
     photo: '/chanda.png',
     idcard: '/chandaid.jpg',
     phone: '+91 95552 14537',
-    joiningDate: '2019-11-30',
-    bloodGroup: 'O-',
+    joiningDate: '10 January 2023',
+    bloodGroup: 'O+',
     dob: '01 January 1990',
     shiftTimings: '10:00 AM - 10:00 PM',
     employeeId: 'MEN001',
@@ -137,7 +137,7 @@ export const staffMembers: StaffMember[] = [
   {
     id: '8',
     name: 'Kajal Singh',
-    designation: 'Front Desk Executive',
+    designation: 'Front Desk Representative',
     department: 'frontDesk',
     photo: '/kajal.png',
     idcard: '/kajalid.jpg',
@@ -228,6 +228,25 @@ export const staffMembers: StaffMember[] = [
     idIssueDate: '01-01-2025',
     gender: 'Male',
     qualifications: ['Intermedite']
+  },
+  {
+    id: '13',
+    name: 'Rashmi Pandey',
+    designation: 'Housekeeping Aaya',
+    department: 'menial',
+    photo: '/.png',
+    idcard: '/.jpg',
+    phone: '+91 95552 14537',
+    joiningDate: '10 January 2015',
+    bloodGroup: 'O+',
+    dob: '01 January 1981',
+    shiftTimings: '09:00 PM - 09:00 AM',
+    employeeId: 'MEN003',
+    address: 'House No:20 , Medhiganj, Lucknow',
+    emergencyContact: '+91 95552 14537',
+    idIssueDate: '01-01-2025',
+    gender: 'Female',
+    qualifications: ['High School']
   }
 ];
 
