@@ -146,7 +146,7 @@ export const staffMembers: StaffMember[] = [
     bloodGroup: 'B+',
     dob: '12 September 2001',
     shiftTimings: '8:00 AM - 4:00 PM (1st - 15th), 1:00 PM - 9:00 PM (15th - 30th)',
-    employeeId: 'FD002',
+    employeeId: 'FD001',
     address: '547KA/5 Pitamber Kheda, Rajajipuram, Lucknow',
     emergencyContact: '+91 74580 13889',
     idIssueDate: '01-01-2025',
