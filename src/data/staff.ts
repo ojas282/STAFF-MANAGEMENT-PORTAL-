@@ -222,7 +222,7 @@ export const staffMembers: StaffMember[] = [
     bloodGroup: 'A-',
     dob: '02 March 1986',
     shiftTimings: '10:00 AM - 10:00 PM',
-    employeeId: 'NUR002',
+    employeeId: 'MEN002',
     address: '432 Nurses Quarter, Hospital Campus',
     emergencyContact: '+91 91514 37044',
     idIssueDate: '01-01-2025',
@@ -290,10 +290,11 @@ export const staffMembers: StaffMember[] = [
 ];
 
 export const departments = {
+  doctors: 'Doctor Staff',
+  managing: 'Managing Staff',
   nursing: 'Nursing Staff',
   frontDesk: 'Front Desk Executive',
   menial: 'Menial Staff',
-  doctors: 'Doctor Staff',
   pharmacy: 'Pharmacy Staff',
-  managing: 'Managing Staff'
+
 };
