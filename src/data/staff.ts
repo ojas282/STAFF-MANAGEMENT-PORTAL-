@@ -250,6 +250,25 @@ export const staffMembers: StaffMember[] = [
   },
   {
     id: '14',
+    name: 'Vinod Kumar Gupta',
+    designation: 'Managing Director',
+    department: 'managing',
+    photo: '/vinod.JPG',
+    idcard: '/ojasid.png',
+    phone: '+91 76520 82446',
+    joiningDate: '10 January 2014',
+    bloodGroup: 'AB+',
+    dob: '04 July 1974',
+    shiftTimings: 'Full Time',
+    employeeId: 'MM001',
+    address: 'D-17/63 , Rajajipuram, Lucknow',
+    emergencyContact: '+91 76520 82446',
+    idIssueDate: '01-01-2025',
+    gender: 'Male',
+    qualifications: ['Master of Science (MSC)']
+  },
+  {
+    id: '15',
     name: 'Ojas Kumar Gupta',
     designation: 'Marketing Manager',
     department: 'managing',
@@ -268,24 +287,25 @@ export const staffMembers: StaffMember[] = [
     qualifications: ['Bachelor of Technology (Computer Science and Engineering)']
   },
   {
-    id: '15',
-    name: 'Vinod Kumar Gupta',
-    designation: 'Managing Director',
+    id: '16',
+    name: 'Bhavya Gupta',
+    designation: 'Supervisor',
     department: 'managing',
-    photo: '/ojas.png',
+    photo: '/bhavya.jpg',
     idcard: '/ojasid.png',
-    phone: '+91 76520 82446',
-    joiningDate: '10 January 2014',
+    phone: '+91 80811 56709',
+    joiningDate: '10 December 2024',
     bloodGroup: 'AB+',
-    dob: '04 July 1974',
-    shiftTimings: 'Full Time',
-    employeeId: 'MM001',
+    dob: '25 July 2005',
+    shiftTimings: 'Hybrid',
+    employeeId: 'MM003',
     address: 'D-17/63 , Rajajipuram, Lucknow',
-    emergencyContact: '+91 76520 82446',
+    emergencyContact: '+91 70803 91217',
     idIssueDate: '01-01-2025',
-    gender: 'Male',
-    qualifications: ['Master of Science (MSC)']
-  }
+    gender: 'Female',
+    qualifications: ['Intermediate']
+  },
+
 ];
 
 export const departments = {
