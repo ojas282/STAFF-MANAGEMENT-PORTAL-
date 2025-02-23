@@ -247,6 +247,25 @@ export const staffMembers: StaffMember[] = [
     idIssueDate: '01-01-2025',
     gender: 'Female',
     qualifications: ['High School']
+  },
+  {
+    id: '14',
+    name: 'Ojas Kumar Gupta',
+    designation: 'Marketing Manager',
+    department: 'managing',
+    photo: '/ojas.png',
+    idcard: '/ojasid.jpg',
+    phone: '+91 70803 91217',
+    joiningDate: '10 December 2024',
+    bloodGroup: 'AB+',
+    dob: '28 April 2025',
+    shiftTimings: 'Hybrid',
+    employeeId: 'MM001',
+    address: 'D-17/63 , Rajajipuram, Lucknow',
+    emergencyContact: '+91 70803 91217',
+    idIssueDate: '01-01-2025',
+    gender: 'Male',
+    qualifications: ['Bachelors of Technology (Computer Science)']
   }
 ];
 
@@ -255,5 +274,6 @@ export const departments = {
   frontDesk: 'Front Desk Executive',
   menial: 'Menial Staff',
   doctors: 'Doctor Staff',
-  pharmacy: 'Pharmacy Staff'
+  pharmacy: 'Pharmacy Staff',
+  managing: 'Managing Staff'
 };
