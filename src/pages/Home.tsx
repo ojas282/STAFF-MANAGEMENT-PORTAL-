@@ -5,7 +5,7 @@ import { departments } from '../data/staff';
 
 export default function Home() {
   // Define the desired department order
-  const orderedKeys = ['doctors', 'nursing', 'frontDesk', 'menial', 'pharmacy'];
+  const orderedKeys = ['doctors', 'nursing', 'frontDesk', 'menial', 'pharmacy', 'managing'];
 
   return (
     <div className="container mx-auto px-4 py-8">

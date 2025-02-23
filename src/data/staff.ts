@@ -254,18 +254,37 @@ export const staffMembers: StaffMember[] = [
     designation: 'Marketing Manager',
     department: 'managing',
     photo: '/ojas.png',
-    idcard: '/ojasid.jpg',
+    idcard: '/ojasid.png',
     phone: '+91 70803 91217',
     joiningDate: '10 December 2024',
     bloodGroup: 'AB+',
     dob: '28 April 2025',
     shiftTimings: 'Hybrid',
-    employeeId: 'MM001',
+    employeeId: 'MM002',
     address: 'D-17/63 , Rajajipuram, Lucknow',
     emergencyContact: '+91 70803 91217',
     idIssueDate: '01-01-2025',
     gender: 'Male',
-    qualifications: ['Bachelors of Technology (Computer Science)']
+    qualifications: ['Bachelor of Technology (Computer Science and Engineering)']
+  },
+  {
+    id: '15',
+    name: 'Vinod Kumar Gupta',
+    designation: 'Managing Director',
+    department: 'managing',
+    photo: '/ojas.png',
+    idcard: '/ojasid.png',
+    phone: '+91 76520 82446',
+    joiningDate: '10 January 2014',
+    bloodGroup: 'AB+',
+    dob: '04 July 1974',
+    shiftTimings: 'Full Time',
+    employeeId: 'MM001',
+    address: 'D-17/63 , Rajajipuram, Lucknow',
+    emergencyContact: '+91 76520 82446',
+    idIssueDate: '01-01-2025',
+    gender: 'Male',
+    qualifications: ['Master of Science (MSC)']
   }
 ];
 
