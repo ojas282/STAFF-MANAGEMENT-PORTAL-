@@ -180,7 +180,7 @@ export const staffMembers: StaffMember[] = [
     photo: '/vartika.png',
     idcard: '/vartikaid.jpg',
     phone: '+91 77058 38765',
-    joiningDate: '10 January 2024',
+    joiningDate: '10 January 2021',
     bloodGroup: 'B+',
     dob: '05 October 1990',
     shiftTimings: '1:00 PM - 9:00 PM',
@@ -285,25 +285,6 @@ export const staffMembers: StaffMember[] = [
     idIssueDate: '01-01-2025',
     gender: 'Male',
     qualifications: ['Bachelor of Technology (Computer Science and Engineering)']
-  },
-  {
-    id: '16',
-    name: 'Bhavya Gupta',
-    designation: 'Supervisor',
-    department: 'managing',
-    photo: '/bhavya.jpg',
-    idcard: '/ojasid.png',
-    phone: '+91 80811 56709',
-    joiningDate: '10 December 2024',
-    bloodGroup: 'AB+',
-    dob: '25 July 2005',
-    shiftTimings: 'Hybrid',
-    employeeId: 'MM003',
-    address: 'D-17/63 , Rajajipuram, Lucknow',
-    emergencyContact: '+91 70803 91217',
-    idIssueDate: '01-01-2025',
-    gender: 'Female',
-    qualifications: ['Intermediate']
   },
 
 ];

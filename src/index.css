@@ -1,22 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 body {
-  font-family: 'Inter', sans-serif;
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  background-color: #fafafa;
+  overflow-x: hidden;
 }
 
 @layer base {
   :root {
-    --color-primary: 147 51 234;
-    --color-secondary: 236 72 153;
+    --color-primary: 255 0 153;
+    --color-secondary: 123 0 255;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    @apply tracking-tight;
+  }
+
+  p {
+    @apply leading-relaxed text-gray-600;
   }
 }
 
-.bg-gradient {
-  @apply bg-gradient-to-r from-purple-600 to-pink-500;
+.clip-triangle {
+  clip-path: polygon(50% 0%, 100% 100%, 0% 100%);
 }
 
-.text-gradient {
-  @apply bg-gradient-to-r from-purple-600 to-pink-500 bg-clip-text text-transparent;
+.card-hover {
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.card-hover:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 25px 50px -12px rgba(255, 0, 153, 0.15);
+}
+
+/* Minimal animations */
+@keyframes float {
+
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+
+  50% {
+    transform: translateY(-10px);
+  }
+}
+
+.float {
+  animation: float 6s ease-in-out infinite;
+}
+
+/* Glass effect */
+.glass {
+  background: rgba(255, 255, 255, 0.7);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+/* Dynamic gradient text */
+.gradient-text {
+  @apply bg-clip-text text-transparent bg-gradient-to-r from-[#FF0099] to-[#7B00FF];
+}
+
+/* Footer gradient */
+.footer-gradient {
+  background: linear-gradient(135deg, rgba(255, 0, 153, 0.03) 0%, rgba(123, 0, 255, 0.03) 100%);
 }
