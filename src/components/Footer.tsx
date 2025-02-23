@@ -9,7 +9,7 @@ const socialLinks = [
 ];
 
 const contactInfo = [
-  { icon: Phone, text: '+91 0522-35545662', href: 'tel:+91052235545662' },
+  { icon: Phone, text: '0522-35545662', href: 'tel:+91052235545662' },
   { icon: Mail, text: 'drartihospital2023@gmail.com', href: 'mailto:drartihospital2023@gmail.com' },
   { icon: MapPin, text: 'C-193/5 Rajajipuram, Lucknow 226017', href: 'https://maps.google.com' },
 ];
