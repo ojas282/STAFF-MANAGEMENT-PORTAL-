@@ -1,6 +1,7 @@
 import React from 'react';
-import { useParams } from 'react-router-dom';
+import { useParams, Link } from 'react-router-dom';
 import { motion } from 'framer-motion';
+import { ArrowLeft } from 'lucide-react';
 import StaffCard from '../components/StaffCard';
 import { staffMembers, departments } from '../data/staff';
 
@@ -10,6 +11,19 @@ export default function Department() {
 
   return (
     <div className="container mx-auto px-4 py-8">
+      <motion.div
+        initial={{ opacity: 0, y: -20 }}
+        animate={{ opacity: 1, y: 0 }}
+        className="mb-8"
+      >
+        <Link
+          to="/"
+          className="inline-flex items-center gap-2 text-gray-600 hover:text-[#FF0099] transition-colors"
+        >
+          <ArrowLeft className="w-5 h-5" />
+          <span>Back to Departments</span>
+        </Link>
+      </motion.div>
       <motion.h2
         initial={{ opacity: 0, y: 20 }}
         animate={{ opacity: 1, y: 0 }}
