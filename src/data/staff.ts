@@ -293,7 +293,7 @@ export const departments = {
   doctors: 'Doctor Staff',
   managing: 'Managing Staff',
   nursing: 'Nursing Staff',
-  frontDesk: 'Front Desk Executive',
+  frontDesk: 'Front Desk Executive Staff',
   menial: 'Menial Staff',
   pharmacy: 'Pharmacy Staff',
 
