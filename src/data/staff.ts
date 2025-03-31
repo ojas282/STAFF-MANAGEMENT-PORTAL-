@@ -272,7 +272,7 @@ export const staffMembers: StaffMember[] = [
     name: 'Ojas Kumar Gupta',
     designation: 'Marketing Manager',
     department: 'managing',
-    photo: '/ojas.png',
+    photo: '/ojas.jpg',
     idcard: '/ojasid.png',
     phone: '+91 70803 91217',
     joiningDate: '10 December 2024',
@@ -286,6 +286,25 @@ export const staffMembers: StaffMember[] = [
     gender: 'Male',
     qualifications: ['Bachelor of Technology (Computer Science and Engineering)']
   },
+  {
+    id: '16',
+    name: 'Shareefa',
+    designation: 'Saff Nurse',
+    department: 'nursing',
+    photo: '/ojas.png',
+    idcard: '/ojasid.png',
+    phone: '+91 70803 91217',
+    joiningDate: '10 December 2024',
+    bloodGroup: 'AB+',
+    dob: '28 April 2025',
+    shiftTimings: 'Hybrid',
+    employeeId: 'NUR006',
+    address: 'D-17/63 , Rajajipuram, Lucknow',
+    emergencyContact: '+91 70803 91217',
+    idIssueDate: '01-01-2025',
+    gender: 'Male',
+    qualifications: ['Bachelor of Technology (Computer Science and Engineering)']
+  }
 
 ];
 
