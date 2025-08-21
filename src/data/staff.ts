@@ -235,7 +235,7 @@ export const staffMembers: StaffMember[] = [
     name: 'Ojas Kumar Gupta',
     designation: 'Marketing Manager',
     department: 'managing',
-    photo: '/ojas.jpg',
+    photo: '/ojas.png',
     idcard: '/ojasid.png',
     phone: '+91 70803 91217',
     joiningDate: '10 December 2024',
