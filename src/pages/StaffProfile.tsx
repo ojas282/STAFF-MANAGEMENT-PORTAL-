@@ -4,7 +4,8 @@ import { motion, AnimatePresence } from 'framer-motion';
 import {
   Calendar, Droplet, Clock, Car as IdCard, MapPin,
   Calendar as Calendar2, User2, GraduationCap,
-  ArrowLeft, Share2, Heart, Shield
+  ArrowLeft, Share2, Heart, Shield,
+  Phone
 } from 'lucide-react';
 import { staffMembers, departments } from '../data/staff';
 
@@ -44,6 +45,8 @@ export default function StaffProfile() {
     { icon: MapPin, label: 'Address', value: staff.address },
     { icon: Calendar2, label: 'ID Issue Date', value: staff.idIssueDate },
     { icon: User2, label: 'Gender', value: staff.gender },
+    { icon: Phone, label: 'Phone', value: staff.phone },
+
   ];
 
   return (
