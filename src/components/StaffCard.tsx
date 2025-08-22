@@ -22,7 +22,6 @@ export default function StaffCard({ staff, index }: StaffCardProps) {
             src={staff.photo} 
             alt={staff.name}
             className="w-full h-full object-cover"
-            loading="lazy"
           />
           <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/70 to-transparent p-4">
             <h3 className="text-lg font-semibold text-white">{staff.name}</h3>
