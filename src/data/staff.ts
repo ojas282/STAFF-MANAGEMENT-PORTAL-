@@ -200,7 +200,7 @@ export const staffMembers: StaffMember[] = [
     designation: 'Housekeeping',
     department: 'menial',
     photo: '/nanhu.png',
-    idcard: '/nanhuid.jpg',
+    idcard: '/nanhuid.png',
     phone: '+91 95552 14537',
     joiningDate: '10 January 2015',
     bloodGroup: 'O+',
